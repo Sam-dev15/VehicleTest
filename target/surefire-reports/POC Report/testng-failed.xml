@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [POC Report]" parallel="tests">
+  <test thread-count="2" verbose="0" name="Run CPQ Test Scripts(failed)" parallel="tests">
+    <classes>
+      <class name="VerifyCarPrice">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="verifyPrice"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- VerifyCarPrice -->
+    </classes>
+  </test> <!-- Run CPQ Test Scripts(failed) -->
+</suite> <!-- Failed suite [POC Report] -->
